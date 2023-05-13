@@ -24,7 +24,7 @@ import org.springframework.web.servlet.ModelAndViewDefiningException;
 import com.example.jpetstore.domain.Order;
 import com.example.jpetstore.domain.User;
 import com.example.jpetstore.service.DonationService;
-
+    
 
 @Controller
 @SessionAttributes("donation") //session에 저장 및 공유
