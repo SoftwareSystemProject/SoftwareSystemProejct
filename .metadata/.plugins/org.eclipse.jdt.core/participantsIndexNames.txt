@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\user\OneDrive\바탕 화면\SoftwareSystemProejct\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3008959341.index
-\jpetstore-master\src\main\java
