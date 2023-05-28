@@ -77,7 +77,7 @@ function User_login() {
             <div class="inputLoginCheck">{checkUserId}</div>
             <div class="login_content">
               <div class="login_inputBox">
-                <input class="login_input" placeholder="비밀번호를 입력해주세요" onChange={updatePw}></input>
+                <input class="login_input" type="password" placeholder="비밀번호를 입력해주세요" onChange={updatePw}></input>
               </div>
             </div>
             <div class="inputLoginCheck">{checkPw}</div>   

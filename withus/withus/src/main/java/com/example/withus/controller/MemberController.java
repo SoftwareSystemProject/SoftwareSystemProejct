@@ -67,8 +67,9 @@ public class MemberController {
 		
 		Connection conn = ds.getConnection();
 	    PreparedStatement stmt = conn.prepareStatement(
-	         "SELECT USER_ID FROM MEMBER WHERE PASSWORD='admin111'");
-		login_check = false;
+	         "select * from Member where id=(?)");
+	    stmt.setString(1, member[0]);
+		login_check = true;
 		Map<String,Object> resultMap = new HashMap<String,Object>();
 		resultMap.put("java return", "im java");
 		return resultMap;

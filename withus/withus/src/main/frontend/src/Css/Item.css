@@ -43,9 +43,14 @@
 }
 
 #item_register{
-    margin: auto 0;
+    border: 1.5px solid #ee5f41;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    color: #ee5f41;
+    font-size: 18px;
+    height: 35px;
+    width: 95px;
     margin-left: 50px;
-    font-size: 17px;
 }
 
 #item_list{

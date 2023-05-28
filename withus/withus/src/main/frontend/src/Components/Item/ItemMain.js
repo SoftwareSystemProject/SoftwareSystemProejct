@@ -1,6 +1,7 @@
 import '../../Css/Item.css';
 import ItemView from './ItemView.js';
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 function ItemMain() {
   return (
@@ -18,7 +19,7 @@ function ItemMain() {
             </div>
             <div id="item_view">
                 <div id="item_view_header">
-                    <div id="item_register">나눔하기</div>
+                    <Link to="/itemwrite"><button id="item_register">나눔하기</button></Link>
                     <div id="item_list">
                         <div class="item_list_content">신상품순</div>
                         <div class="item_list_content">|</div>
