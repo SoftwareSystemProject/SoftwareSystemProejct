@@ -1,0 +1,11 @@
+package com.example.withus.dao.mybatis;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.withus.dao.mybatis.mapper.DonationOrdersMapper;
+
+public class MyBatisDonationOrdersDao {
+
+	@Autowired
+	protected DonationOrdersMapper donationOrdersMapper;
+}
